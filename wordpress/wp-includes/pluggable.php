@@ -401,8 +401,18 @@ function wp_mail( $to, $subject, $message, $headers = '', $attachments = array()
 		}
 	}
 
-	// Set to use PHP's mail()
-	$phpmailer->IsMail();
+	to use PHP's mail()
+	//$phpmailer->IsMail();
+	// Over ride and set to use SMTP. Set enviromental variables.
+	$phpmailer->IsSMTP();
+	$phpmailer->SMTPAuth = true; // enable SMTP authentication
+	$phpmailer->Port = 25; // set the SMTP server port
+	$phpmailer->Host = 'smtp.sendgrid.net'; // SMTP server
+	$phpmailer->Username = $_ENV["SENDGRID_USERNAME"]; // SMTP server Username
+	$phpmailer->Password = $_ENV["SENDGRID_PASSWORD"]; // SMTP server password
+	$phpmailer->From = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
+	$phpmailer->FromName = $bloginfo = get_bloginfo( 'name', 'raw' );
+	$phpmailer->Sender = $bloginfo = get_bloginfo( 'admin_email', 'raw' );
 
 	// Set Content-Type and charset
 	// If we don't have a content-type from the input headers

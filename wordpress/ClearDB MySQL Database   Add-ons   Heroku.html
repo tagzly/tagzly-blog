@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)https://addons.heroku.com/cleardb -->
+<html lang="en"><script type="text/javascript" async="" src="./ClearDB MySQL Database   Add-ons   Heroku_files/507da4e9f96e77000200036f.js"></script><script type="text/javascript" async="" src="./ClearDB MySQL Database   Add-ons   Heroku_files/ga.js"></script><script type="text/javascript">window["_gaUserPrefs"] = { ioo : function() { return true; } }</script><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title>ClearDB MySQL Database | Add-ons | Heroku</title>
+
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black-translucent" name="apple-mobile-web-app-status-bar-style">
+<meta content="The quickest and easiest way to integrate ClearDB MySQL Database with your Heroku apps. The high speed, 100% uptime database for your MySQL powered applications." name="description">
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<script type="text/javascript">
+  window.env = 'production';
+</script>
+
+
+<meta name="csrf-param" content="authenticity_token">
+<meta name="csrf-token" content="1YEe2heblIEoPWVb/HiYb8tU2paFylrYct3xPmbuZiI=">
+
+<link href="./ClearDB MySQL Database   Add-ons   Heroku_files/header.css" media="screen" rel="stylesheet" type="text/css">
+<link href="./ClearDB MySQL Database   Add-ons   Heroku_files/marketplace.css" media="screen" rel="stylesheet" type="text/css">
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/jquery.min.js" type="text/javascript"></script><style type="text/css"></style>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/jquery-ui-1.8.23.custom.min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/jquery_ujs.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/jquery.select-text.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/js-url.min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/underscore-min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/backbone-min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/mousetrap.min.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/spin.min.js" type="text/javascript"></script><style type="text/css"></style>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/melange.js" type="text/javascript"></script>
+<script src="./ClearDB MySQL Database   Add-ons   Heroku_files/marketplace.js" type="text/javascript"></script>
+
+
+<script>
+  var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+  var eventer = window[eventMethod];
+  var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+  eventer(messageEvent,function(event) {
+    if ( event.origin !== "https://addons.heroku.com" )
+      return
+    if (event.data == "logged-in-success")
+      herokuLogin();
+  },false);
+  
+  function herokuLogin() {
+    $('#sso-frame').remove();
+  }
+  
+  $(document).ready(function() {
+    if (window.frameElement == null || window.frameElement.id != 'sso-frame') {
+      var iframe = $('<iframe id="sso-frame" src="/login.js?js_sso=1"></iframe>');
+      iframe.css({
+        'position': 'absolute',
+        'width': '300px',
+        'height': '300px',
+        'left': '0px',
+        'top': '0px',
+        'display': 'none'
+        });
+      $('body').prepend(iframe);
+    } else if (window.frameElement != null || window.frameElement.id == 'sso-frame') {
+      
+    }
+  });
+</script>
+
+<style>#ghostery-alert-6365{border:solid 2px #fff !important;box-sizing:content-box !important;color:#fff !important;display:block !important;font:13px Arial,Helvetica !important;height:auto !important;margin:0 !important;opacity:0.9 !important;padding:7px 10px !important;position:fixed !important;text-align:left !important;text-shadow:none !important;text-transform:none !important;visibility:visible !important;width:auto !important;z-index:2147483647 !important;-webkit-border-radius:5px !important;-webkit-box-shadow:0px 0px 20px #000 !important;-webkit-box-sizing:content-box !important;}.ghostery-alert-6365-blocked{color:#777 !important;display:inline !important;text-decoration:line-through !important;}#ghostery-alert-6365 br{display:block !important;}#ghostery-alert-6365 span{background:transparent !important;}@media print{#ghostery-alert-6365{display:none !important;}}</style></head>
+<body><div id="StayFocusd-infobar" style="display: none; top: 7px;"><img src="chrome-extension://laankejkbhbdhmipfmgcngdelahlfoji/img/eye_19x19_red.png"><span id="StayFocusd-infobar-msg"></span><span id="StayFocusd-infobar-links"><a href="https://addons.heroku.com/cleardb#" id="StayFocusd-infobar-never-show">hide forever</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="https://addons.heroku.com/cleardb#" id="StayFocusd-infobar-hide">hide once</a></span></div><iframe id="sso-frame" src="about:blank" style="position: absolute; width: 300px; height: 300px; left: 0px; top: 0px; display: none;"></iframe>
+
+
+
+        <div id="fuji" class="fuji">
+          <div class="container">
+            <h1>
+              <a href="https://www.heroku.com/">
+                heroku<span>add-ons</span>
+              </a>
+            </h1>
+            <ul><li><a href="https://heroku.com/how" class="how">How it Works</a></li>
+<li><a href="https://www.heroku.com/pricing" class="pricing">Pricing</a></li>
+<li><a href="https://dashboard.heroku.com/" class="apps">Apps</a></li>
+<li><a href="https://addons.heroku.com/" class="addons">Add-ons</a></li>
+<li><a href="https://devcenter.heroku.com/" class="documentation">Documentation</a></li>
+<li><a href="https://help.heroku.com/" class="support">Support</a></li>
+<li><a href="https://addons.heroku.com/login" class="login">Log in</a></li></ul>
+          </div>
+        </div>
+      
+<div id="content">
+<style>
+<style>
+  .custom_color {
+    color: #264989 !important; }
+  
+  .custom_background_color {
+    background-color: #264989 !important; }
+  
+  .active .custom_background_color_on_hover_and_active {
+    background-color: #264989 !important; }
+  
+  .custom_background_color_on_hover_and_active:hover {
+    background-color: #264989 !important; }
+  
+  #addons_edit a.iconic {
+    background-color: #264989; }
+  #addons_edit button {
+    background-color: #264989 !important; }
+  #addons_edit input:focus, #addons_edit textarea:focus {
+    outline-color: #1a3143; }
+</style>
+
+<style>
+  input.plan:nth-of-type(0):checked ~ ul#plan_options li:nth-of-type(0) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(1):checked ~ ul#plan_options li:nth-of-type(1) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(2):checked ~ ul#plan_options li:nth-of-type(2) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(3):checked ~ ul#plan_options li:nth-of-type(3) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(4):checked ~ ul#plan_options li:nth-of-type(4) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(5):checked ~ ul#plan_options li:nth-of-type(5) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(6):checked ~ ul#plan_options li:nth-of-type(6) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(7):checked ~ ul#plan_options li:nth-of-type(7) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(8):checked ~ ul#plan_options li:nth-of-type(8) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(9):checked ~ ul#plan_options li:nth-of-type(9) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(10):checked ~ ul#plan_options li:nth-of-type(10) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(11):checked ~ ul#plan_options li:nth-of-type(11) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(12):checked ~ ul#plan_options li:nth-of-type(12) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(13):checked ~ ul#plan_options li:nth-of-type(13) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(14):checked ~ ul#plan_options li:nth-of-type(14) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(15):checked ~ ul#plan_options li:nth-of-type(15) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(16):checked ~ ul#plan_options li:nth-of-type(16) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(17):checked ~ ul#plan_options li:nth-of-type(17) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(18):checked ~ ul#plan_options li:nth-of-type(18) h3 {
+    background-color: #264989 !important; }
+</style>
+<style>
+  input.plan:nth-of-type(19):checked ~ ul#plan_options li:nth-of-type(19) h3 {
+    background-color: #264989 !important; }
+</style>
+
+<div id="addons_show">
+<div class="addon_header">
+<h1>
+<img alt="Original" data-corsurl="http://assets.heroku.com.s3.amazonaws.com/addons.heroku.com/catalogs/303/original.png" id="logo" src="./ClearDB MySQL Database   Add-ons   Heroku_files/original.png">
+<a href="./ClearDB MySQL Database   Add-ons   Heroku_files/ClearDB MySQL Database   Add-ons   Heroku.html">
+ClearDB MySQL Database
+
+<span class="price">from $0/mo</span>
+</a>
+<ul class="breadcrumbs">
+<li>The high speed, 100% uptime database for your MySQL powered applications.</li>
+
+</ul>
+</h1>
+<ul class="menu collapsed">
+<li class="cli" data-addon="cleardb" data-melange-addon="cleardb" data-melange-event-name="clicked addon header CLI command" data-melange-trigger="click">
+heroku addons:add cleardb
+</li>
+
+</ul>
+</div>
+
+<ul class="benefits masonry" style="position: relative; height: 504px;">
+<li class="last masonry-brick" style="position: absolute; top: 0px; left: 0px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">idea</span>
+<span class="title">
+Great for Developers
+</span>
+</h3>
+<p>ClearDB on Heroku enables you to build your apps using native MySQL databases so that you can focus on your applications and get your ideas to market faster. Get started by creating your ClearDB database today!</p>
+
+</div>
+</li>
+<li class="masonry-brick" style="position: absolute; top: 0px; left: 480px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">bank</span>
+<span class="title">
+Battle Tested For Business
+</span>
+</h3>
+<p>Combined with our intelligent clustering technology and secure everywhere design, ClearDB brings highly stable, powerful zero-administration MySQL database services to Heroku so that you can maximize your revenue without maximizing your IT budget.</p>
+
+</div>
+</li>
+<li class="masonry-brick" style="position: absolute; top: 117px; left: 0px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">lighting</span>
+<span class="title">
+Quick and Easy Setup
+</span>
+</h3>
+<p>Getting started with ClearDB is super easy and only takes a few minutes. Whether you're creating a new application or migrating an enterprise service to Heroku, ClearDB makes it quick and easy to get setup, loaded, and online with very little effort.</p>
+
+</div>
+</li>
+<li class="last masonry-brick" style="position: absolute; top: 135px; left: 480px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">alert</span>
+<span class="title">
+Minimize Database Failures
+</span>
+</h3>
+<p>ClearDB uses multi-regional, highly available technology to ensure that your data is not only available when everything works, but also when things fail. Our promise to you is that your data will always be there for you to use, no matter what.</p>
+
+</div>
+</li>
+<li class="masonry-brick" style="position: absolute; top: 252px; left: 0px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">gauge</span>
+<span class="title">
+Scale Painlessly
+</span>
+</h3>
+<p>When you're ready to scale your database, it's as simple as a single command. No need for data migrations, configuration or application changes. Simply scale on demand, knowing that ClearDB is working hard for you.</p>
+
+</div>
+</li>
+<li class="masonry-brick" style="position: absolute; top: 270px; left: 480px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">people</span>
+<span class="title">
+Get Fanatical Support 
+</span>
+</h3>
+<p>There's nothing more important than knowing that if you place your data in someone else's hands, they will be there to help you when you need it the most. ClearDB's excellent support ensures that you receive the help you need, quickly and efficiently.</p>
+
+</div>
+</li>
+<li class="last masonry-brick" style="position: absolute; top: 387px; left: 0px;">
+<div class="content">
+<h3>
+<span class="icon custom_color">database</span>
+<span class="title">
+Use What You're Used To
+</span>
+</h3>
+<p>ClearDB uses native, unmodified MySQL so that you don't have to re-tune (or rewrite) your apps when you move them from your local environment into the cloud.</p>
+
+</div>
+</li>
+</ul>
+
+<form accept-charset="UTF-8" action="https://addons.heroku.com/marketplace/resources" class="provisionator" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="1YEe2heblIEoPWVb/HiYb8tU2paFylrYct3xPmbuZiI="></div>
+<div id="plan_selector">
+<h2 class="ruled">
+Plans
+</h2>
+<input checked="" class="plan" id="scream" name="plan" type="radio" value="scream">
+<input class="plan" id="drift" name="plan" type="radio" value="drift">
+<input class="plan" id="punch" name="plan" type="radio" value="punch">
+<input class="plan" id="ignite" name="plan" type="radio" value="ignite">
+<ul id="plan_options">
+<li class="max transition-disabled" data-addon-name="ClearDB MySQL Database Scream" data-addon="cleardb" data-feature142="10 GB" data-feature143="40" data-feature293="check" data-feature294="100%" data-feature447="check" data-feature448="check" data-feature449="check" data-feature450="check" data-full-slug="cleardb:scream" data-melange-addon="cleardb" data-melange-event-name="clicked addon plan" data-melange-plan="scream" data-melange-price-cents="9999" data-melange-price-unit="month" data-melange-trigger="click" data-plan-name="Scream" data-plan="scream" data-price-cents="9999" data-price-label="$99.99/mo" data-price-unit="month">
+<label for="scream">
+<h3 class="plan custom_background_color_on_hover_and_active">
+<span class="name">Scream</span>
+<span class="price">$99.99/mo</span>
+</h3>
+</label>
+</li>
+<li class="transition-disabled" data-addon-name="ClearDB MySQL Database Drift" data-addon="cleardb" data-feature142="5 GB" data-feature143="30" data-feature293="check" data-feature294="100%" data-feature447="check" data-feature448="check" data-feature450="check" data-full-slug="cleardb:drift" data-melange-addon="cleardb" data-melange-event-name="clicked addon plan" data-melange-plan="drift" data-melange-price-cents="4999" data-melange-price-unit="month" data-melange-trigger="click" data-plan-name="Drift" data-plan="drift" data-price-cents="4999" data-price-label="$49.99/mo" data-price-unit="month">
+<label for="drift">
+<h3 class="plan custom_background_color_on_hover_and_active">
+<span class="name">Drift</span>
+<span class="price">$49.99/mo</span>
+</h3>
+</label>
+</li>
+<li class="transition-disabled" data-addon-name="ClearDB MySQL Database Punch" data-addon="cleardb" data-feature142="1 GB" data-feature143="15" data-feature293="check" data-feature294="100%" data-feature447="check" data-feature450="check" data-full-slug="cleardb:punch" data-melange-addon="cleardb" data-melange-event-name="clicked addon plan" data-melange-plan="punch" data-melange-price-cents="999" data-melange-price-unit="month" data-melange-trigger="click" data-plan-name="Punch" data-plan="punch" data-price-cents="999" data-price-label="$9.99/mo" data-price-unit="month">
+<label for="punch">
+<h3 class="plan custom_background_color_on_hover_and_active">
+<span class="name">Punch</span>
+<span class="price">$9.99/mo</span>
+</h3>
+</label>
+</li>
+<li class="transition-disabled" data-addon-name="ClearDB MySQL Database Ignite" data-addon="cleardb" data-feature142="5 MB" data-feature143="10" data-feature293="check" data-feature294="99.95%" data-feature450="check" data-full-slug="cleardb:ignite" data-melange-addon="cleardb" data-melange-event-name="clicked addon plan" data-melange-plan="ignite" data-melange-price-cents="0" data-melange-price-unit="month" data-melange-trigger="click" data-plan-name="Ignite" data-plan="ignite" data-price-cents="0" data-price-label="Free" data-price-unit="month">
+<label for="ignite">
+<h3 class="plan custom_background_color_on_hover_and_active">
+<span class="name">Ignite</span>
+<span class="price">Free</span>
+</h3>
+</label>
+</li>
+</ul>
+<ul class="features scream">
+<li class="number" data-datatype="number" data-max="100" id="offering861">
+<span class="name">Connections</span>
+<span class="value">40</span>
+</li>
+<li class="number" data-datatype="number" data-max="100" id="offering2107">
+<span class="name">Guaranteed Uptime</span>
+<span class="value">100%</span>
+</li>
+<li class="filesize" data-datatype="filesize" data-max="10737418240" id="offering856">
+<span class="name">Database Size</span>
+<span class="value">10 GB</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2873">
+<span class="name">24/7 Support</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2868">
+<span class="name">High I/O Support</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2102">
+<span class="name">Nightly Backups</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2863">
+<span class="name">Production Ready</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2878">
+<span class="name">Standard US Business Day Support</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="custom_sales_message">
+Need something custom?
+<a href="mailto:biz@heroku.com">Contact our sales team</a>.
+</li>
+</ul>
+<ul class="drift features">
+<li class="number" data-datatype="number" data-max="100" id="offering860">
+<span class="name">Connections</span>
+<span class="value">30</span>
+</li>
+<li class="number" data-datatype="number" data-max="100" id="offering2106">
+<span class="name">Guaranteed Uptime</span>
+<span class="value">100%</span>
+</li>
+<li class="filesize" data-datatype="filesize" data-max="10737418240" id="offering855">
+<span class="name">Database Size</span>
+<span class="value">5 GB</span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2872">
+<span class="name">24/7 Support</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2867">
+<span class="name">High I/O Support</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2101">
+<span class="name">Nightly Backups</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2862">
+<span class="name">Production Ready</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2877">
+<span class="name">Standard US Business Day Support</span>
+<span class="custom_color value">check</span>
+</li>
+</ul>
+<ul class="features punch">
+<li class="number" data-datatype="number" data-max="100" id="offering859">
+<span class="name">Connections</span>
+<span class="value">15</span>
+</li>
+<li class="number" data-datatype="number" data-max="100" id="offering2105">
+<span class="name">Guaranteed Uptime</span>
+<span class="value">100%</span>
+</li>
+<li class="filesize" data-datatype="filesize" data-max="10737418240" id="offering854">
+<span class="name">Database Size</span>
+<span class="value">1 GB</span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2871">
+<span class="name">24/7 Support</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2866">
+<span class="name">High I/O Support</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2100">
+<span class="name">Nightly Backups</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2861">
+<span class="name">Production Ready</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2876">
+<span class="name">Standard US Business Day Support</span>
+<span class="custom_color value">check</span>
+</li>
+</ul>
+<ul class="features ignite">
+<li class="number" data-datatype="number" data-max="100" id="offering858">
+<span class="name">Connections</span>
+<span class="value">10</span>
+</li>
+<li class="number" data-datatype="number" data-max="100" id="offering2104">
+<span class="name">Guaranteed Uptime</span>
+<span class="value">99.95%</span>
+</li>
+<li class="filesize" data-datatype="filesize" data-max="10737418240" id="offering853">
+<span class="name">Database Size</span>
+<span class="value">5 MB</span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2870">
+<span class="name">24/7 Support</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2865">
+<span class="name">High I/O Support</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2099">
+<span class="name">Nightly Backups</span>
+<span class="custom_color value">check</span>
+</li>
+<li class="boolean false" data-datatype="boolean" data-max="0" id="offering2860">
+<span class="name">Production Ready</span>
+<span class="custom_color value"></span>
+</li>
+<li class="boolean true active" data-datatype="boolean" data-max="0" id="offering2875">
+<span class="name">Standard US Business Day Support</span>
+<span class="custom_color value">check</span>
+</li>
+</ul>
+</div>
+<div id="provisionator">
+<div class="container custom_background_color">
+<p class="provisionator_disabled">
+<a href="https://addons.heroku.com/login">Log in</a>
+or use the command below to install ClearDB MySQL Database.
+</p>
+<p class="cli" data-addon="cleardb" data-melange-addon="cleardb" data-melange-event-name="clicked addon plan CLI command" data-melange-trigger="click">heroku addons:add cleardb:scream</p>
+</div>
+<p class="result" data-success="" style="display:none"></p>
+</div>
+</form>
+
+
+<div data-slug="cleardb" id="docs" style="">
+<h2 class="ruled">Documentation</h2>
+<ul id="toc" style="position: relative; height: 128px;" class="masonry"><li class="masonry-brick" style="position: absolute; top: 0px; left: 0px;"><a class="rails" href="https://devcenter.heroku.com/articles/cleardb#the-short-tutorial-for-ruby-on-rails-apps">The short tutorial for Ruby on Rails apps</a></li><li class="masonry-brick" style="position: absolute; top: 0px; left: 320px;"><a class="" href="https://devcenter.heroku.com/articles/cleardb#the-complete-tutorial">The complete tutorial</a></li><li class="masonry-brick" style="position: absolute; top: 0px; left: 640px;"><a class="ruby" href="https://devcenter.heroku.com/articles/cleardb#configuring-your-ruby-application-to-use-cleardb">Configuring your Ruby application to use ClearDB</a></li><li class="masonry-brick" style="position: absolute; top: 36px; left: 0px;"><a class="" href="https://devcenter.heroku.com/articles/cleardb#using-cleardb-in-a-play-framework-app">Using ClearDB in a Play! Framework app</a></li><li class="masonry-brick" style="position: absolute; top: 36px; left: 320px;"><a class="" href="https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-php">Using ClearDB with PHP</a></li><li class="masonry-brick" style="position: absolute; top: 56px; left: 640px;"><a class="django" href="https://devcenter.heroku.com/articles/cleardb#using-cleardb-with-python-django">Using ClearDB with Python/Django</a></li><li class="masonry-brick" style="position: absolute; top: 72px; left: 0px;"><a class="rails" href="https://devcenter.heroku.com/articles/cleardb#using-ssl-with-cleardb-and-rails">Using SSL with ClearDB and Rails</a></li><li class="masonry-brick" style="position: absolute; top: 72px; left: 320px;"><a class="" href="https://devcenter.heroku.com/articles/cleardb#using-ssl-with-other-heroku-supported-languages-and-frameworks">Using SSL with other Heroku supported languages and frameworks</a></li><li class="masonry-brick" style="position: absolute; top: 92px; left: 640px;"><a class="" href="https://devcenter.heroku.com/articles/cleardb#further-reading">Further reading:</a></li></ul>
+</div>
+<h2 class="ruled">Regions</h2>
+<p>
+ClearDB MySQL Database
+is available in the
+<a href="https://devcenter.heroku.com/articles/regions">US and Europe regions</a>.
+</p>
+
+</div>
+
+<footer>
+<ul class="nav">
+<li>
+<a class="changelog" href="https://addons.heroku.com/changelog">
+<span class="icon">feed</span>
+<span class="label">Add-ons Changelog</span>
+</a>
+</li>
+<li>
+<a class="twitter" href="https://twitter.com/herokuaddons">
+<span class="icon">twitter</span>
+<span class="label">Twitter</span>
+</a>
+</li>
+<li>
+<a class="provider" href="https://addons.heroku.com/provider">
+<span class="icon">add</span>
+<span class="label">Become an Add-on Provider</span>
+</a>
+</li>
+</ul>
+</footer>
+<!-- / google analytics -->
+<script>
+  var _gaq = _gaq || [];
+  _gaq.push(
+      ['api._setAccount', 'UA-2989055-1'],
+      ['api._setDomainName', 'heroku.com'],
+      ['api._trackPageview'],
+  
+      ['addons._setAccount', 'UA-2989055-14'],
+      ['addons._setDomainName', 'addons.heroku.com'],
+      
+      
+      ['addons._trackPageview']
+  
+      
+  );
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+<!-- / intercom -->
+
+<!-- / perfect audience -->
+<script>
+  (function() {
+    window._pa = window._pa || {};
+    // _pa.orderId = "myUser@email.com"; // OPTIONAL: include your converted user's email address or order ID
+    // _pa.revenue = "19.99"; // OPTIONAL: include dynamic purchase value for the conversion
+    // _pa.onLoadEvent = "sign_up"; // OPTIONAL: name of segment/conversion to be fired on script load
+    var pa = document.createElement('script'); pa.type = 'text/javascript'; pa.async = true;
+    pa.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + "//tag.perfectaudience.com/serve/507da4e9f96e77000200036f.js";
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(pa, s);
+  })();
+</script>
+
+
+
+</div>
+<script type="text/javascript">if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "rpm-images.newrelic.com/42/eum/rum.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","beacon-1.newrelic.com","fffd39df93","794905","Jw1eF0MJCVRdQktYBxYJVRdBCgRbXR8FUQILDENMQg4KTw==",43,152,new Date().getTime(),"","","","",""]);</script>
+
+<script type="text/javascript" src="./ClearDB MySQL Database   Add-ons   Heroku_files/rum.js"></script><script type="text/javascript" src="./ClearDB MySQL Database   Add-ons   Heroku_files/fffd39df93"></script></body></html>
